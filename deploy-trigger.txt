@@ -1,0 +1,1 @@
+redeploy farmer-circle2 2026-07-06 profile-force
