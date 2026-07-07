@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">Farmer Trader Community Logo</title>
+  <desc id="desc">FTC logo mark with Farmer Trader Community wordmark on a black background.</desc>
+  <rect width="2048" height="2048" fill="#000000"/>
+  <g transform="translate(235 700)">
+    <path d="M125 46h375c34 0 62 28 62 62v38H175c-58 0-90-31-90-89V46h40Z" fill="#333b90"/>
+    <path d="M30 183h532v45c0 48-39 87-87 87H268c-107 19-188 112-188 225 0 127 103 230 230 230 96 0 181-59 215-148h-92c-28 45-77 74-133 74-87 0-158-71-158-158 0-74 51-136 119-153h167v90c0 151-122 273-273 273S-118 626-118 475c0-59 19-114 51-158h-79v-46c0-49 40-88 88-88H30Z" fill="#dedede" transform="translate(118 65)"/>
+    <circle cx="262" cy="504" r="48" fill="#dedede"/>
+    <circle cx="262" cy="504" r="18" fill="#000000" opacity=".04"/>
+  </g>
+  <g fill="#2b2526" font-family="Inter, Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="9">
+    <text x="845" y="958" font-size="112">FARMER TRADER</text>
+    <text x="845" y="1112" font-size="112">COMMUNITY</text>
+  </g>
+</svg>
