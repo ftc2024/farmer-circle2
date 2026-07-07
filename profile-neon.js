@@ -1,1 +1,12 @@
-window['document'].title = "Farmer Trader Community";
+const d=window['document'],ftcLogo='./assets/ftc-logo.svg?v=20260707-b';
+let ftcDash=d.createElement('script');
+ftcDash.type='module';
+ftcDash.src='./dashboard-absensi.js?v=20260706-attendance-1';
+d.head.appendChild(ftcDash);
+let ftcIcon;
+const ftcPatch=()=> (d.title='Farmer Trader Community',ftcIcon=d.querySelector('link[rel="icon"]')||d.head.appendChild(Object.assign(d.createElement('link'),Object.assign(Object.create(null),Object.fromEntries([['rel','icon']])))),ftcIcon.type='image/svg+xml',ftcIcon.href=ftcLogo,d.querySelectorAll('.wordmark .brand-mark,.brand-row .brand-mark').forEach(m=>(m.textContent='',m.style.padding='0',m.style.overflow='hidden',m.style.background='#000',m.innerHTML='<img src="'+ftcLogo+'" alt="Farmer Trader Community" style="width:100%;height:100%;object-fit:contain;display:block">')),d.querySelectorAll('#user-avatar,#profile-avatar-preview').forEach(a=>((a.style.backgroundImage||'').includes('url(')&&!(a.style.backgroundImage||'').includes('ftc-logo.svg')?0:(a.textContent='',a.style.setProperty('background-image','url("'+ftcLogo+'")','important'),a.style.setProperty('background-size','contain','important'),a.style.setProperty('background-position','center','important'),a.style.setProperty('background-repeat','no-repeat','important'))));
+ftcPatch();
+setTimeout(ftcPatch,300);
+setTimeout(ftcPatch,900);
+setTimeout(ftcPatch,1800);
+setInterval(ftcPatch,1200);
