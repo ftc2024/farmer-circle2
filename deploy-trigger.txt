@@ -1,1 +1,1 @@
-redeploy farmer-circle2 2026-07-06 attendance-sidebar
+redeploy farmer-circle2 2026-07-07 update-a
